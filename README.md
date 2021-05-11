@@ -12,7 +12,7 @@ https://support.google.com/accounts/answer/185833?p=InvalidSecondFactor&visit_id
 Step 2) Enter the details in the file .env, present in the same folder
 \
 \
-Step 3) On your terminal run: 
+Step 3) On your terminal Go to project dir and run: 
 \
   for PROD mode :   npm i && pm2 start vaccineNotifier.js
 \
