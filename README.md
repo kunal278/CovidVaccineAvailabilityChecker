@@ -1,5 +1,5 @@
 # VaccineNotifier
-VaccineNotifier checks the cowin portal periodically to find vaccination slots available in your district and for your age. If found, it will send you emails every minute until the slots are available.
+VaccineNotifier checks the cowin portal periodically to find vaccination slots available in your district and for your age. If found, it will send you emails every minute till the slots are available.
 
 
 <font size="6"> Steps to run the script: </font> 
