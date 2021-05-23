@@ -17,6 +17,7 @@ To close the app, run: pm2 stop vaccineNotifier.js
 const DISTRICT_CODE = process.env.DISTRICT_CODE
 const EMAIL = process.env.EMAIL
 const AGE = process.env.AGE
+const DOSE = process.env.CHECK_FOR_DOSE_1_OR_2
 
 async function main(){
     try {
