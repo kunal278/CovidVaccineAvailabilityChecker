@@ -54,7 +54,13 @@ function getSlotsForDate(DATE, districtId) {
         .then(function (slots) {
             console.log('slot ::: ',slots.data.sessions);
             let sessions = slots.data.sessions;
-            let validSlots = sessions.filter(slot => slot.min_age_limit <= AGE &&  slot.available_capacity > 0 )
+            let validSlots;
+            if(DOSE == 1){
+                validSlots = sessions.filter(slot => slot.min_age_limit <= AGE &&  slot.available_capacity_dose1 > 0)
+            }
+            else{
+                validSlots = sessions.filter(slot => slot.min_age_limit <= AGE &&  slot.available_capacity_dose2 > 0 )
+            }
             console.log({date:DATE, validSlots: validSlots.length})
             if(validSlots.length > 0) {
                 notifyMe(validSlots);
