@@ -16,7 +16,7 @@ Step 3) On your terminal Go to project dir and run:
 \
   for PROD mode :   npm i && pm2 start vaccineNotifier.js
 \
-  for DEV mode : pm i && pm2-dev start vaccineNotifier.js
+  for DEV mode : npm i && pm2-dev start vaccineNotifier.js
 \
 \
 To close the app run: 
