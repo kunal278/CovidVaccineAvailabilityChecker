@@ -5,6 +5,7 @@ VaccineNotifier checks the cowin portal periodically to find vaccination slots a
 <font size="6"> Steps to run the script: </font> 
 
 Pre-requisite: Node js must be installed
+\
 link to download node js :  https://nodejs.org/en/download/
 
 Step 1) Enable application access on your gmail with steps given here:
