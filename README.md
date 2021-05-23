@@ -7,6 +7,8 @@ VaccineNotifier checks the cowin portal periodically to find vaccination slots a
 Pre-requisite: Node js must be installed
 \
 link to download node js :  https://nodejs.org/en/download/
+\
+Command to install pm2 if it doesn't gets installed along with nodejs : $ npm install pm2 -g
 
 Step 1) Enable application access on your gmail with steps given here:
 https://support.google.com/accounts/answer/185833?p=InvalidSecondFactor&visit_id=637554658548216477-2576856839&rd=1  
